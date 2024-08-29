@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ES6",
+        "moduleResolution": "Node",
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        
+        // "esModuleInterop": true
+    },
+
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+
+    "ts-node": {
+        "compilerOptions": {
+            "module": "commonjs"
+        }
+    }
+}

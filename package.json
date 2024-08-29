@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx gulp --stare",
+    "build": "npx gulp --export"
+  },
+  "author": "me",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "pixi.js": "^8.3.4",
+    "typescript": "^5.5.4",
+    "webpack": "^5.94.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/gulp": "^4.0.17",
+    "@types/webpack-stream": "^3.2.15",
+    "@types/yargs": "^17.0.33",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^8.3.0",
+    "webpack-stream": "^7.0.0",
+    "yargs": "^17.7.2"
+  }
+}
